@@ -174,14 +174,14 @@ export function SignupForm({
                       "Sign up"
                     )}
                   </Button>
-                  <Button
+                  {/* <Button
                     variant="outline"
                     className="w-full"
                     onClick={signUp}
                     type="button"
                   >
                     Sign up with Google
-                  </Button>
+                  </Button> */}
                 </div>
               </div>
               <div className="mt-4 text-center text-sm">

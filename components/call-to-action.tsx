@@ -6,7 +6,7 @@ export default function CallToAction() {
     <section className="py-16 md:py-32">
       <div className="mx-auto max-w-5xl px-6">
         <div className="text-center">
-          <h2 className="text-balance text-4xl font-semibold lg:text-5xl">
+          <h2 className="text-balance text-4xl font-semibold lg:text-5xl gradient">
             🛠️ Build Your Mind Like a Developer
           </h2>
           <p className="mt-4">
@@ -17,7 +17,7 @@ export default function CallToAction() {
           <div className="mt-12 flex flex-wrap justify-center gap-4">
             <Button asChild size="lg">
               <Link href="/dashboard">
-                <span>Get Started</span>
+                <span className="gradient">Get Started</span>
               </Link>
             </Button>
           </div>

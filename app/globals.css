@@ -214,3 +214,31 @@
 .ProseMirror:focus {
   outline: none;
 }
+.gradient {
+  background: linear-gradient(
+    36deg,
+    rgb(255, 0, 153),
+    rgb(89, 255, 0),
+    rgb(68, 0, 255),
+    rgb(6, 210, 225),
+    rgb(255, 0, 115),
+    red,
+    rgb(6, 205, 255)
+  );
+  background-size: 200%;
+  background-clip: text;
+  color: transparent;
+  animation: grad 3s linear infinite;
+}
+
+@keyframes grad {
+  from {
+    background-position: 0%;
+  }
+  to {
+    background-position: 200%;
+  }
+}
+.font-Mono-space{
+ font-family: monospace,"san-serif";
+}

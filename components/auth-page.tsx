@@ -10,7 +10,7 @@ export function AuthPage() {
     <div className="relative w-full md:h-screen md:overflow-hidden">
       <Particles
         className="absolute inset-0"
-        color="#666666"
+        color="#666668"
         ease={20}
         quantity={120}
       />
@@ -37,14 +37,14 @@ export function AuthPage() {
               Sign In or Join Now!
             </h1>
             <p className="text-base text-muted-foreground">
-              login or create your asme account.
+              login or create your  account.
             </p>
           </div>
           <div className="space-y-2">
-            <Button className="w-full" size="lg" type="button">
+            {/* <Button className="w-full" size="lg" type="button">
               <GoogleIcon />
               Continue with Google
-            </Button>
+            </Button> */}
             <Button className="w-full" size="lg" type="button">
               <GithubIcon strokeWidth={2.5} />
               Continue with GitHub

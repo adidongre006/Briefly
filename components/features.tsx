@@ -7,7 +7,7 @@ export default function Features() {
     <section className="bg-zinc-50 py-16 md:py-32 dark:bg-transparent">
       <div className="@container mx-auto max-w-5xl px-6">
         <div className="text-center">
-          <h2 className="text-balance text-4xl font-semibold lg:text-5xl">
+          <h2 className="text-balance text-4xl font-semibold lg:text-5xl gradient">
             🔧 Crafted for Developers Like You
           </h2>
           <p className="mt-4">
@@ -22,7 +22,7 @@ export default function Features() {
                 <NotebookPen className="size-6" aria-hidden />
               </CardDecorator>
 
-              <h3 className="mt-6 font-medium">Quick Notes</h3>
+              <h3 className="mt-6 font-medium gradient">Quick Notes</h3>
             </CardHeader>
 
             <CardContent>
@@ -39,7 +39,7 @@ export default function Features() {
                 <Code className="size-6" aria-hidden />
               </CardDecorator>
 
-              <h3 className="mt-6 font-medium">Developer Friendly</h3>
+              <h3 className="mt-6 font-medium gradient">Developer Friendly</h3>
             </CardHeader>
 
             <CardContent>
@@ -56,7 +56,7 @@ export default function Features() {
                 <ShieldCheck className="size-6" aria-hidden />
               </CardDecorator>
 
-              <h3 className="mt-6 font-medium">Secure by Design</h3>
+              <h3 className="mt-6 font-medium gradient">Secure by Design</h3>
             </CardHeader>
 
             <CardContent>

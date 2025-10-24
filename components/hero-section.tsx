@@ -45,8 +45,9 @@ export default function HeroSection() {
                   as="h1"
                   className="mt-8 max-w-2xl text-balance text-5xl font-medium md:text-6xl lg:mt-16"
                 >
-                  🔥 Forge Smarter Notes. Code Better.
+                  Capture what matters -- Briefly
                 </TextEffect>
+                {/* <span className="mt-8 max-w-2xl text-balance text-5xl font-medium md:text-6xl lg:mt-16"></span> */}
                 <TextEffect
                   per="line"
                   preset="fade-in-blur"
@@ -55,7 +56,7 @@ export default function HeroSection() {
                   as="p"
                   className="mt-8 max-w-2xl text-pretty text-lg"
                 >
-                  Supercharge your workflow with NoteForge — the smartest way to
+                  Supercharge your workflow with Briefly — the smartest way to
                   capture, organize, and link dev notes, code snippets, and
                   technical insights.
                 </TextEffect>
@@ -84,7 +85,7 @@ export default function HeroSection() {
                       className="rounded-xl px-5 text-base"
                     >
                       <Link href="/dashboard">
-                        <span className="text-nowrap">Start Forging</span>
+                        <span className="text-nowrap gradient">Think Clearly</span>
                       </Link>
                     </Button>
                   </div>
@@ -112,14 +113,14 @@ export default function HeroSection() {
                 <div className="inset-shadow-2xs ring-background dark:inset-shadow-white/20 bg-background relative mx-auto max-w-5xl overflow-hidden rounded-2xl border p-4 shadow-lg shadow-zinc-950/15 ring-1">
                   <Image
                     className="bg-background aspect-15/8 relative hidden rounded-2xl dark:block"
-                    src="/dark.png"
+                    src="/briefly-dark.png"
                     alt="app screen"
                     width="2700"
                     height="1440"
                   />
                   <Image
                     className="z-2 border-border/25 aspect-15/8 relative rounded-2xl border dark:hidden"
-                    src="/light.png"
+                    src="/briefly-light.png"
                     alt="app screen"
                     width="2700"
                     height="1440"

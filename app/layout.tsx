@@ -17,9 +17,13 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "NoteForge - Your Dev Note-Taking App",
+  title: "Briefly - The Note-Taking App",
   description:
-    "NoteForge is a digital notebook that allows you to take notes, create notebooks, and more.",
+    "Briefly is a digital notebook that allows you to take notes, create notebooks, and more.",
+    icons:{
+      icon:"/felon.png",
+    }
+    
 };
 
 export default function RootLayout({
