@@ -5,6 +5,7 @@ import Image from "next/image";
 import { TextEffect } from "@/components/ui/text-effect";
 import { AnimatedGroup } from "@/components/ui/animated-group";
 import { HeroHeader } from "./header";
+import DecryptingView from "./DecryptingText";
 
 const transitionVariants = {
   item: {
@@ -38,15 +39,16 @@ export default function HeroSection() {
           <div className="relative pt-24">
             <div className="absolute inset-0 -z-10 size-full [background:radial-gradient(125%_125%_at_50%_100%,transparent_0%,var(--color-background)_75%)]"></div>
             <div className="mx-auto max-w-5xl px-6">
-              <div className="sm:mx-auto lg:mr-auto lg:mt-0">
-                <TextEffect
+              <div className="sm:mx-auto lg:mr-auto lg:mt-0 text-left">
+                {/* <TextEffect
                   preset="fade-in-blur"
                   speedSegment={0.3}
                   as="h1"
                   className="mt-8 max-w-2xl text-balance text-5xl font-medium md:text-6xl lg:mt-16"
                 >
                   Capture what matters -- Briefly
-                </TextEffect>
+                </TextEffect> */}
+                <DecryptingView   />
                 {/* <span className="mt-8 max-w-2xl text-balance text-5xl font-medium md:text-6xl lg:mt-16"></span> */}
                 <TextEffect
                   per="line"
@@ -54,7 +56,7 @@ export default function HeroSection() {
                   speedSegment={0.3}
                   delay={0.5}
                   as="p"
-                  className="mt-8 max-w-2xl text-pretty text-lg"
+                  className="mt-8 max-w-2xl text-pretty text-lg "
                 >
                   Supercharge your workflow with Briefly — the smartest way to
                   capture, organize, and link dev notes, code snippets, and

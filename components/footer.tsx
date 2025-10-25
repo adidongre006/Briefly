@@ -169,7 +169,7 @@ export default function FooterSection() {
                         </svg>
                     </Link>
                 </div>
-                <span className="text-muted-foreground block text-center text-sm"> © <span className="gradient font-mono-space">{new Date().getFullYear()} Tailark, All rights reserved</span></span>
+                <span className="text-muted-foreground block text-center text-sm gradient"> © <span className="gradient font-Mono-space">{new Date().getFullYear()} Briefly, All rights reserved</span></span>
             </div>
         </footer>
     )
