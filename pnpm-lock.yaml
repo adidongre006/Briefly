@@ -74,6 +74,9 @@ importers:
       drizzle-orm:
         specifier: ^0.44.6
         version: 0.44.6(@neondatabase/serverless@1.0.2)(@types/pg@8.15.5)(better-sqlite3@12.4.1)(kysely@0.28.8)
+      framer-motion:
+        specifier: ^12.23.24
+        version: 12.23.24(react-dom@19.2.0(react@19.2.0))(react@19.2.0)
       lucide-react:
         specifier: ^0.546.0
         version: 0.546.0(react@19.2.0)
